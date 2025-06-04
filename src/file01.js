@@ -11,7 +11,7 @@
  * Referencia: https://javascript.info/import-export
  */
 
-import { setTitle } from './functions.js'; 
+import { setTitle } from "./functions.js"; 
 
 /** 
  * Establezca la variable local pageTitle con el título de la página.
