@@ -43,6 +43,12 @@ const frameworks = [
 frameworks.forEach(item => {
   const [name,date,user,pop] = item.split("|").map(str => str.trim());
 
-  const frameworkObj = {frameworkName: name, releaseDate: date, usersName: user, popularityPercentage: pop};
+  const frameworkObj = {
+    frameworkName: name, 
+    releaseDate: date, 
+    usersName: user, 
+    popularityPercentage: pop
+  };
+  
   addRow(frameworkObj,"data-frameworks");
 });
